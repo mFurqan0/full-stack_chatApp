@@ -8,5 +8,6 @@ spec:
     storage: 5Gi
   accessModes:
     - ReadWriteOnce
+  storageClassName: local-storage
   hostPath:
     path: /data
