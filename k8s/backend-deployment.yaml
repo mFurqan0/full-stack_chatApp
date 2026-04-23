@@ -21,3 +21,5 @@ spec:
         env:
         - name: NODE_ENV
           value: production
+        - name: MONGODB_URI
+          value: "mongodb://root:admin@mongodb:27017/chatApp?authSource=admin"  
